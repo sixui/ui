@@ -94,6 +94,7 @@
 *What that the team is currently working on.*
 
 Components
+- [ ] Menu
 - [ ] Select
 - [ ] CardActionArea
 - [ ] CardActions
@@ -131,8 +132,7 @@ Components
 - [ ] Banner
 - [ ] Bottom sheet
 - [ ] Data table
-- [ ] Date picker
-- [ ] Menu
+- [ ] Date picke
 - [ ] Navigation bar
 - [ ] Navigation drawer
 - [ ] Navigation rail

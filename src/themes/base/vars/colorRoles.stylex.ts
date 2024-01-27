@@ -63,6 +63,7 @@ const surfaceInverse: IColorRolesSurfaceInverse = {
 const surface: IColorRolesSurface = {
   surface: colorPalettesVars.neutral98,
   onSurface: colorPalettesVars.neutral10,
+  surfaceVariant: colorPalettesVars.neutral90,
   onSurfaceVariant: colorPalettesVars.neutralVariant30,
   surfaceContainerLowest: colorPalettesVars.neutral100,
   surfaceContainerLow: colorPalettesVars.neutral96,

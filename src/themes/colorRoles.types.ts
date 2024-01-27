@@ -138,6 +138,8 @@ export type IColorRolesSurface = IColorRolesSurfaceInverse & {
    */
   onSurface: string;
 
+  surfaceVariant: string;
+
   /**
    * Lower-emphasis color for text and icons against any surface color
    */

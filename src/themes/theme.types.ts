@@ -69,6 +69,10 @@ import type {
   IDividerStyleVarKey,
 } from '@/components/atoms/Divider';
 import type { ICardStyleKey, ICardStyleVarKey } from '@/components/atoms/Card';
+import type {
+  ISelectStyleKey,
+  ISelectStyleVarKey,
+} from '@/components/atoms/Select';
 
 export interface ITemplateTheme {
   theme?: IStyleVarsTheme<ITemplateStyleVarKey>;
@@ -116,6 +120,11 @@ export interface ITextFieldTheme {
 export interface ICardTheme {
   theme?: IStyleVarsTheme<ICardStyleVarKey>;
   styles?: ICompiledStyles<ICardStyleKey>;
+}
+
+export interface ISelectTheme {
+  theme?: IStyleVarsTheme<ISelectStyleVarKey>;
+  styles?: ICompiledStyles<ISelectStyleKey>;
 }
 
 export interface ITheme {
@@ -280,5 +289,10 @@ export interface ITheme {
     OutlinedCard: ICardTheme & {
       styles?: ICompiledStyles<ICardStyleKey>;
     };
+    Select: ISelectTheme & {
+      vars: IStyleVarGroup<ISelectStyleVarKey>;
+    };
+    FilledSelect: ISelectTheme;
+    OutlinedSelect: ISelectTheme;
   };
 }

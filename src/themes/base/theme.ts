@@ -209,6 +209,16 @@ import { componentTheme as filledCardTheme } from './Card/FilledCard.stylex';
 import { componentTheme as outlinedCardTheme } from './Card/OutlinedCard.stylex';
 import { styles as outlinedCardStyles } from './Card/OutlinedCard.styles';
 
+import { styles as selectStyles } from './Select/Select.styles';
+import { styles as filledSelectStyles } from './Select/FilledSelect.styles';
+import { styles as outlinedSelectStyles } from './Select/OutlinedSelect.styles';
+import { componentTheme as filledSelectTheme } from './Select/FilledSelect.stylex';
+import { componentTheme as outlinedSelectTheme } from './Select/OutlinedSelect.stylex';
+import {
+  componentTheme as selectTheme,
+  componentVars as selectVars,
+} from './Select/Select.stylex';
+
 export const theme: ITheme = {
   name: 'Material Design 3',
   components: {
@@ -402,6 +412,19 @@ export const theme: ITheme = {
     OutlinedCard: {
       theme: outlinedCardTheme,
       styles: outlinedCardStyles,
+    },
+    Select: {
+      theme: selectTheme,
+      styles: selectStyles,
+      vars: selectVars,
+    },
+    FilledSelect: {
+      theme: filledSelectTheme,
+      styles: filledSelectStyles,
+    },
+    OutlinedSelect: {
+      theme: outlinedSelectTheme,
+      styles: outlinedSelectStyles,
     },
   },
 };
